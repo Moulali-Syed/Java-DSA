@@ -1,0 +1,39 @@
+package theory;
+
+public class ConditionalsLoops {
+
+	public static void main(String[] args) {
+
+		/*
+		 * synatx of if statment if(boolean expression T or F){
+		 * 
+		 * //body }else{ }
+		 */
+
+		int salary = 25000;
+		if (salary > 20000) {
+			salary += 2000;
+		} else {
+			salary += 1000;
+		}
+		/*
+		 * multiple if -else
+		 * 
+		 */
+		if (salary > 10000) {
+			salary += 2000;
+		} else if (salary > 15000) {
+			salary += 3000;
+		} else {
+			salary += 1000;
+		}
+
+		System.out.println(salary);
+
+		// print numbers from 1 to 5
+		for (int i = 1; i <= 5; i++) {
+			System.out.println(i);
+		}
+	}
+
+}
