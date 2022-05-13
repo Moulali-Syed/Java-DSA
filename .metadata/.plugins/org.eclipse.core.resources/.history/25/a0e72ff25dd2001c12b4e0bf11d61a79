@@ -1,0 +1,9 @@
+flow charts :
+
+start/stop --> oval shape
+input/output --> parallelogram
+processing  --> rectangle
+condition --> rhombus
+
+Take input salary . if salary greater than 10000 add bonus 2000 other wise add bonus as 1000
+

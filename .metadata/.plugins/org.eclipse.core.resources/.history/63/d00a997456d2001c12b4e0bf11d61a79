@@ -1,0 +1,12 @@
+Types of languages:
+
+		1.Procedural 
+		2.Functional
+		3.Object Oriented
+		
+	Procedural Programming:
+	specifies a series of well structured steps and procedures to compose a program
+	Contains a systematic order of statements , functions and commands to complete a task
+	
+	Functional Programming:
+	writing a program only in pure functions i.e never modify variables , but only create new ones as an output

@@ -1,0 +1,21 @@
+
+o	java:S106*"9Replace this use of System.out or System.err by a logger.(»Ôï²ûÿÿÿÿ8ïıØ‹0HRMAJORZ
+CODE_SMELL
+o	java:S106"9Replace this use of System.out or System.err by a logger.(Íñ‰¯ùÿÿÿÿ8è«„Ø‹0H	RMAJORZ
+CODE_SMELL
+
+java:S1104"NMake a2 a static final constant or non-public and provide accessors if needed.(ÈÜçr8„é‹Ø‹0HRMINORZ
+CODE_SMELL
+o	java:S106"9Replace this use of System.out or System.err by a logger.(ãØˆ—úÿÿÿÿ8„¹ş×‹0HRMAJORZ
+CODE_SMELL
+o	java:S106!"9Replace this use of System.out or System.err by a logger.(Íñ‰¯ùÿÿÿÿ8Ñäõ×‹0HRMAJORZ
+CODE_SMELL
+o	java:S106"9Replace this use of System.out or System.err by a logger.(Íñ‰¯ùÿÿÿÿ8’Ô€Ø‹0HRMAJORZ
+CODE_SMELL
+o	java:S106"9Replace this use of System.out or System.err by a logger.(ãØˆ—úÿÿÿÿ8»ù÷×‹0HRMAJORZ
+CODE_SMELL
+…
+java:S1104"NMake a1 a static final constant or non-public and provide accessors if needed.(·é½ûÿÿÿÿ8„é‹Ø‹0HRMINORZ
+CODE_SMELL
+j	java:S1061"9Replace this use of System.out or System.err by a logger.(Óø¡8’‡Ø‹0HRMAJORZ
+CODE_SMELL

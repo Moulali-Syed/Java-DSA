@@ -1,0 +1,17 @@
+flow charts :
+
+start/stop --> oval shape
+input/output --> parallelogram
+processing  --> rectangle
+condition --> rhombus
+flow direction symbol --->
+
+Take input salary . if salary greater than 10000 add bonus 2000 other wise add bonus as 1000
+
+				oval[start] 			- start
+				input[parallelogram]    - take salary input
+				condition				- salary>10000
+				process[rectangle] 		- if yes add 2000 bonus
+				process					- if no add 1000 bonus
+				output					- output salary
+				End

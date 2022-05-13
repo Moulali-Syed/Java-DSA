@@ -1,0 +1,55 @@
+flow charts :
+
+start/stop --> oval shape
+input/output --> parallelogram
+processing  --> rectangle
+condition --> rhombus
+flow direction symbol --->
+
+Take input salary . if salary greater than 10000 add bonus 2000 other wise add bonus as 1000
+
+				oval[start] 			- start
+				input[parallelogram]    - take salary input
+				condition				- salary>10000
+				process[rectangle] 		- if yes add 2000 bonus
+				process					- if no add 1000 bonus
+				output					- output salary
+				End
+				
+input a number print whether it is prime or not?
+start
+input number
+check if number is divisible by any number between 2 and number-1
+if divisible then its not prime
+if not divisible it is prime
+output msg as prime or not prime
+end
+
+
+Pseudo code: how an algorithm works can be described in pseudo code
+
+start
+input num
+c=2
+while c<num:
+	if num%c=0:
+		output "not prime"
+	c=c+1
+end while
+output "prime"
+exit
+
+for prime number check , check upto the squareroot of number
+
+1*36 =36
+2*18=36
+3*12=36
+4*9=36
+6*6=36
+9*4=36
+12*3=36
+18*2=36
+36*1=36
+
+look above we repeating the stuff 2*18 | 18*2 
+no need of checking twice its more optimized to check upto the squareroot of the number

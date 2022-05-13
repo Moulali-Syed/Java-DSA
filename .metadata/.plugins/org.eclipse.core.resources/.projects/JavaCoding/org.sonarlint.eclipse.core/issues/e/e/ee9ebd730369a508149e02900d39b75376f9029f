@@ -1,0 +1,50 @@
+
+r	java:S125"<This block of commented-out lines of code should be removed.(Å¢‚“ıÿÿÿÿ8‘åøÛ‹0HWRMAJORZ
+CODE_SMELL
+b
+java:S1481"+Remove this unused "rollNo" local variable.(ØàÖÛùÿÿÿÿ8ÿ¤ëÛ‹0H"RMINORZ
+CODE_SMELL
+b
+java:S1481"1Remove this unused "largeInteger" local variable.(«›Á8•úñÛ‹0H9RMINORZ
+CODE_SMELL
+h
+java:S1481"1Remove this unused "largeDecimal" local variable.(¢Òú¥ùÿÿÿÿ8•úñÛ‹0H7RMINORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(µàÙ—8ä‚Ü‹0HfRMAJORZ
+CODE_SMELL
+q
+java:S1854":Remove this useless assignment to local variable "rollNo".(ØàÖÛùÿÿÿÿ8†ëÛ‹0HRMAJORZ
+CODE_SMELL
+k
+java:S1854"9Remove this useless assignment to local variable "marks".(Ò¼Ò©8•úñÛ‹0H1RMAJORZ
+CODE_SMELL
+\
+java:S1481"*Remove this unused "marks" local variable.(Ò¼Ò©8•úñÛ‹0H5RMINORZ
+CODE_SMELL
+q
+java:S1854":Remove this useless assignment to local variable "letter".(±¦¯ûÿÿÿÿ8•úñÛ‹0H2RMAJORZ
+CODE_SMELL
+b
+java:S1481"+Remove this unused "letter" local variable.(±¦¯ûÿÿÿÿ8•úñÛ‹0H3RMINORZ
+CODE_SMELL
+a
+java:S1481"*Remove this unused "check" local variable.(’¼Œ‹øÿÿÿÿ8•úñÛ‹0H;RMINORZ
+CODE_SMELL
+q
+java:S1854"@Remove this useless assignment to local variable "largeInteger".(«›Á8•úñÛ‹0H/RMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(Ğ•ÎÜ8ÁŸÿÚ‹0HRMAJORZ
+CODE_SMELL
+w
+java:S1854"@Remove this useless assignment to local variable "largeDecimal".(¢Òú¥ùÿÿÿÿ8•úñÛ‹0H0RMAJORZ
+CODE_SMELL
+m	java:S125	"<This block of commented-out lines of code should be removed.(ÒÛÊ†8ÎÜèÛ‹0HRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(‡õß8ÍÚçÛ‹0HeRMAJORZ
+CODE_SMELL
+l
+java:S1854"5Remove this useless assignment to local variable "n".(Í¡˜«şÿÿÿÿ8Á™šÜ‹0HwRMAJORZ
+CODE_SMELL
+]
+java:S1481"&Remove this unused "n" local variable.(Í¡˜«şÿÿÿÿ8Á™šÜ‹0HxRMINORZ
+CODE_SMELL

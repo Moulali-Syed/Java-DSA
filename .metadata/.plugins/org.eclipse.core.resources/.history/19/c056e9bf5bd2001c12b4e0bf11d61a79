@@ -1,0 +1,104 @@
+Types of languages:
+
+		1.Procedural 
+		2.Functional
+		3.Object Oriented
+		
+	Procedural Programming:
+	specifies a series of well structured steps and procedures to compose a program
+	Contains a systematic order of statements , functions and commands to complete a task
+	
+	Functional Programming:
+	writing a program only in pure functions i.e never modify variables , but only create new ones as an output
+	used in situations where we have to perform lots of different operations on same set of data , like ML
+	first class functions?
+	functions are block of code which is reusable , if we are able to reassign the function variables or 
+	references to other variables then it is first class
+	
+	Object Oriented Programming
+	Revolves around objects
+	code+data = objects
+	developed to make it easier to develop ,debug, reuse and maintain software
+	class - named group of data and functions
+	
+	
+	Static vs Dynamic Languages:
+	
+	Static
+	Perform type checking at compile time
+	errors will show at compile time
+	declare datatype before you use it
+	more control
+	
+	Dynamic:
+	Perform type checking at runtime
+	error might not show till program is run
+	no need to declare datatype of variables
+	saves time in writing code but might give error at run time
+	
+	
+	Stack and Heap:
+	
+	When i write a =10
+	a is refernce variable 
+	10 is stored in heap
+	a is pointing to 10
+	
+	stack stores reference variable
+	Heap stores value
+	
+	
+	One object can pointed to more than one reference variable
+	if we make change from one reference variable then it will change object value
+	
+	
+	lets suppose there is a person - lets say he is called by name Apple , son by his mom , brother by his
+	sister - if Apple had a hair cut all other references will also be able see that same hair cut
+	
+package theory;
+
+public class Demo {
+
+	public String a1 = "hi";
+	public String a2 = a1;
+
+	public static void main(String[] args) {
+
+		int a = 10;
+		int b = a;
+		int c = a;
+		System.out.println(a + " " + b + " " + c);
+
+		a = 20;
+		System.out.println(a + " " + b + " " + c);
+
+		/*
+		 * 10 10 10 20 10 10
+		 */
+
+		String name = "apple";
+		String nickName = name;
+		String petName = name;
+		System.out.println(name + " " + nickName + " " + petName);
+
+		name = "happy";
+		System.out.println(name + " " + nickName + " " + petName);
+
+		name = "cool";
+		nickName = name;
+		petName = name;
+		System.out.println(name + " " + nickName + " " + petName);
+		/*
+		 * 
+		 * 
+		 * apple apple apple happy apple apple cool cool cool
+		 */
+
+		Demo obj = new Demo();
+		obj.a1 = "hello";
+		System.out.println(obj.a1 + " " + obj.a2);
+		//hello hi
+	}
+
+}
+	

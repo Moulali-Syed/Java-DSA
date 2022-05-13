@@ -1,0 +1,13 @@
+How java code executes
+
+.java file 		-----compiler----->	 .classfile   ------interpreter--------> machineCode
+(human readble)		(entire file)	  (byte code)		line by line		  (0 and 1)
+
+source code
+this code will not directly run on a system
+we need JVM to run this
+reason why java is platform independent
+
+platform independence
+
+it means byte code can run on any Operating system

@@ -1,0 +1,78 @@
+How java code executes
+
+.java file 		-----compiler----->	 .classfile   ------interpreter--------> machineCode
+(human readble)		(entire file)	  (byte code)		line by line		  (0 and 1)
+
+source code
+this code will not directly run on a system
+we need JVM to run this
+reason why java is platform independent
+
+platform independence
+
+it means byte code can run on any Operating system
+we need to convert source code to machine code so computer can understand 
+compiler helps in doing this by turning it into executable code
+this executable code is set of instructions for computer
+after compiling c/c++ code we get .exe file which is platform dependent
+in java we get byte code , JVM converts this to machine code
+java is platform independent but JVM is platform dependent
+
+JDK vs JRE vs JVM vs JIT
+JDK = JRE + Development tools
+
+JRE = JVM + library classes
+
+JVM 
+JIT
+
+JDK:
+is a package that provides an environment to develop and run java program
+it includes: development tools - to provide an environment to develop your program
+			JRE - to excute your program
+			a compiler - javac
+			archiver - jar
+			docs generator - javadoc
+			interpreter/loader
+			
+JRE:
+it is an installation package that provides environment to only run the program
+it consists of :
+	1.deployment technologies
+	2.user interface toolkits
+	3.integration libraries
+	4.base libraries
+	5.JVM
+afte we get the .class file the next things happen at run time
+	1.class loader loads all classes needed to execute the program
+	2.JVM sends code to byte code verifier to check the format of code
+	
+	
+(compile time)
+   .java file
+   	    |[javac]compilation
+   	    |
+   	.class file
+   	
+   	
+ (run time)
+ 	class loader
+ 	     |
+ 	byte code verifier
+ 		 |
+ 	Interpreter
+ 		 |
+ 	Run time
+ 		 |
+ 	Hardware
+ 	
+ 	
+ How JVM works - class loader
+ -loading: reads .class file and generate binary data , an object of this class is created in heap
+ -linking: JVM verifies the .class file , allocates memory for class variables and default values
+ 			replace symbolic references from type with direct references
+ -Initialization: all static variables are assigned with their values defined in code and static block
+ 
+ JVM contains the stack and heap memory allocations
+ 
+  

@@ -1,0 +1,4 @@
+How java code executes
+
+.java file 		-----compiler----->	 .classfile   ------interpreter--------> machineCode
+(human readble)		(entire file)	  (byte code)		line by line		  (0 and 1)

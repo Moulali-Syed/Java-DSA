@@ -1,0 +1,13 @@
+package theory;
+
+public class Demo01 {
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}
+
+
+//public means can be accessed from anywhere
