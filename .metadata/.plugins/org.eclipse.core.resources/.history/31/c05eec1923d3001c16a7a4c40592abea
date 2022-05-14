@@ -1,0 +1,12 @@
+package arraysArrayList;
+
+public class ArrayDemo {
+
+	public static void main(String[] args) {
+
+		// array datatypes of all elements must be same
+		int[] arr = new int[5];
+		int[] arr1 = { 1, 2, 3, 4 };
+	}
+
+}
