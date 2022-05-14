@@ -1,0 +1,31 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8ÌŸƒî‹0HÉRMAJORZ
+CODE_SMELL
+e
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8¨»ğí‹0HªRMINORZ
+CODE_SMELL
+j
+java:S1854
+"7Remove this useless assignment to local variable "num".(‡™ËŒ8¨»ğí‹0H«RMAJORZ
+CODE_SMELL
+j
+java:S1854"7Remove this useless assignment to local variable "num".(·ÚÒÓ8ìéí‹0H˜RMAJORZ
+CODE_SMELL
+_
+java:S1481"'Remove this unused "a1" local variable.(ãõÍüÿÿÿÿ8ğ¦êí‹0H£RMINORZ
+CODE_SMELL
+Y
+java:S1481"&Remove this unused "c" local variable.(èÌ„¤8ºãöí‹0HÁRMINORZ
+CODE_SMELL
+h
+java:S1854"5Remove this useless assignment to local variable "c".(èÌ„¤8ºãöí‹0HÀRMAJORZ
+CODE_SMELL
+`
+java:S1172"(Remove this unused method parameter "b".(ÕĞ†ñÿÿÿÿÿ8ìéí‹0HRMAJORZ
+CODE_SMELL
+[
+java:S1481"(Remove this unused "num" local variable.(·ÚÒÓ8ìéí‹0H™RMINORZ
+CODE_SMELL
+n
+java:S1854"6Remove this useless assignment to local variable "a1".(ãõÍüÿÿÿÿ8ìéí‹0HœRMAJORZ
+CODE_SMELL

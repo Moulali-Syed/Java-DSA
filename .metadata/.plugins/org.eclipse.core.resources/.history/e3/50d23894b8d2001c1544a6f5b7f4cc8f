@@ -1,0 +1,20 @@
+package theory;
+
+import java.util.Scanner;
+
+public class MethodsDemo {
+
+	public void add(int num1, int num2) {
+
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		System.out.println(a + b);
+	}
+
+	public static void main(String[] args) {
+		MethodsDemo obj = new MethodsDemo();
+		obj.add(12, 13);
+	}
+
+}

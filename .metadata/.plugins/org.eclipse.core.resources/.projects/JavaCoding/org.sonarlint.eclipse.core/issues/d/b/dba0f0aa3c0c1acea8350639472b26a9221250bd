@@ -1,0 +1,11 @@
+
+g
+java:S1066"/Merge this if statement with the enclosing one.(Έ‰‚ωÿÿÿÿ8υϊΰθ‹0HΩRMAJORZ
+CODE_SMELL
+k	java:S106,"9Replace this use of System.out or System.err by a logger.(­½’μ8®ίΨθ‹0HΥRMAJORZ
+CODE_SMELL
+
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(Ηµν‘8υϊΰθ‹0HήRCRITICALZ
+CODE_SMELL
+j	java:S1061"9Replace this use of System.out or System.err by a logger.(ό„κ!8εθ‹0H†RMAJORZ
+CODE_SMELL

@@ -1,0 +1,29 @@
+
+k	java:S1064"9Replace this use of System.out or System.err by a logger.(ÞÊ÷Û8Ãý¾é‹0H¨RMAJORZ
+CODE_SMELL
+p	java:S106<"9Replace this use of System.out or System.err by a logger.(æ¸Ñùÿÿÿÿÿ8Ãý¾é‹0H«RMAJORZ
+CODE_SMELL
+p	java:S106)"9Replace this use of System.out or System.err by a logger.(±€Éýúÿÿÿÿ8ƒù™é‹0H¡RMAJORZ
+CODE_SMELL
+…	java:S1283"LEnd this switch case with an unconditional break, return or throw statement.(úâúÿÿÿÿ8Ãý¾é‹0H¦RBLOCKERZ
+CODE_SMELL
+p	java:S1061"9Replace this use of System.out or System.err by a logger.(žûÓíÿÿÿÿÿ8Ãý¾é‹0H§RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(±ïø½ýÿÿÿÿ8ÎÁ€é‹0H›RMAJORZ
+CODE_SMELL
+k	java:S1066"9Replace this use of System.out or System.err by a logger.(Ïåù8Ãý¾é‹0H©RMAJORZ
+CODE_SMELL
+p	java:S106?"9Replace this use of System.out or System.err by a logger.(ëÜ£½ùÿÿÿÿ8Ãý¾é‹0H¬RMAJORZ
+CODE_SMELL
+p	java:S106 "9Replace this use of System.out or System.err by a logger.(˜Ô¯¢þÿÿÿÿ8ƒù™é‹0HžRMAJORZ
+CODE_SMELL
+p	java:S106#"9Replace this use of System.out or System.err by a logger.(„úòÑúÿÿÿÿ8ƒù™é‹0HŸRMAJORZ
+CODE_SMELL
+k	java:S106D"9Replace this use of System.out or System.err by a logger.(£ÆÏÁ8¸ÃÀé‹0H°RMAJORZ
+CODE_SMELL
+p	java:S106&"9Replace this use of System.out or System.err by a logger.(¢ûäžûÿÿÿÿ8ƒù™é‹0H RMAJORZ
+CODE_SMELL
+p	java:S1069"9Replace this use of System.out or System.err by a logger.(¸¡è¼þÿÿÿÿ8Ãý¾é‹0HªRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(É°Ï…8¾íúè‹0HŠRMAJORZ
+CODE_SMELL
