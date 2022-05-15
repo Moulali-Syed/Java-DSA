@@ -1,0 +1,25 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ÆĞÂüüÿÿÿÿ8€ÛéªŒ0HâRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8šúêªŒ0HëRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(¿ñÛÿ8ˆÓãªŒ0HÉRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ÇÏ¯øøÿÿÿÿ8ä†îªŒ0HôRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Î×çÛùÿÿÿÿ8–Æ©ªŒ0HRMAJORZ
+CODE_SMELL
+X
+java:S2129" Remove this "String" constructor(“ıàøÿÿÿÿ8–Æ©ªŒ0HœRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(êØ‰8œ¯ªŒ0H·RMAJORZ
+CODE_SMELL
+S
+java:S2129" Remove this "String" constructor(¾ìº¶8–Æ©ªŒ0HRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Æò²şúÿÿÿÿ8‘Ú£ªŒ0H’RMAJORZ
+CODE_SMELL
+m
+java:S4973"<Strings and Boxed types should be compared using "equals()".(Æò²şúÿÿÿÿ8‘Ú£ªŒ0HRMAJORZBUG
+m
+java:S4973"<Strings and Boxed types should be compared using "equals()".(Î×çÛùÿÿÿÿ8–Æ©ªŒ0H—RMAJORZBUG

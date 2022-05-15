@@ -1,0 +1,8 @@
+Class : is a named group of properties and functions
+
+If u want to create ur own datatype u can do it by creating a class
+
+For suppose we need to store data of students like rollnumber, name , marks 
+we can either store it in array seperately , if we need all data combinely 
+we can create our own datatype using classes
+Student[] students = new Student[5];

@@ -1,0 +1,22 @@
+
+Y
+java:S2129"!Remove this "Integer" constructor(º¤ùäüÿÿÿÿ8ôÅŠ«Œ0H—RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(º¤ùäüÿÿÿÿ8ôÅŠ«Œ0H–RMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(ÆŠÇ8¼û‚«Œ0HRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Ã½ÁÒ8¥›„«Œ0H“RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(×·µ¬ùÿÿÿÿ8ôÅŠ«Œ0H•RMAJORZ
+CODE_SMELL
+€
+java:S5738"HRemove this call to a deprecated method, it has been marked for removal.(º¤ùäüÿÿÿÿ8ôÅŠ«Œ0H˜RMAJORZ
+CODE_SMELL
+p	java:S106
+"9Replace this use of System.out or System.err by a logger.(â´šØÿÿÿÿÿ8¼û‚«Œ0HRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(€Ñÿèÿÿÿÿÿ8¼û‚«Œ0H‘RMAJORZ
+CODE_SMELL
+p	java:S106	"9Replace this use of System.out or System.err by a logger.(·âœ¿úÿÿÿÿ8¼û‚«Œ0H’RMAJORZ
+CODE_SMELL

@@ -1,0 +1,27 @@
+package oop;
+
+public class FinalDemo {
+
+	public static void main(String[] args) {
+
+		final int INCREASE = 2;
+		// final variables must be initialized
+		// always initialize while declaring it
+
+		// we cannot reassign to a primitive variable if its final
+		// if its a reference variable we can assign value , but cannot be reassigned
+		// directly to variable
+
+	}
+
+}
+
+class A {
+	final int num = 10;
+	String name;
+
+	A(String name) {
+		this.name = name;
+
+	}
+}

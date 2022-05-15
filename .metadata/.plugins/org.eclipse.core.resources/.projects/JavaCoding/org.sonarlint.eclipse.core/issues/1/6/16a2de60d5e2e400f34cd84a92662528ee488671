@@ -1,0 +1,16 @@
+
+e
+java:S1481"-Remove this unused "INCREASE" local variable.(¯žê¯üÿÿÿÿ8Ùª‡®Œ0Hµ	RMINORZ
+CODE_SMELL
+t
+java:S1854"<Remove this useless assignment to local variable "INCREASE".(¯žê¯üÿÿÿÿ8Ùª‡®Œ0H´	RMAJORZ
+CODE_SMELL
+Y
+java:S1170"!Make this final field static too.(šƒ‚ôùÿÿÿÿ8“Ü¤®Œ0HÃ	RMINORZ
+CODE_SMELL
+‚
+java:S1874""JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÖÒ˜Ùùÿÿÿÿ8¥“¯Œ0HË	RMINORZ
+CODE_SMELL
+h
+java:S1113""-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ8¥“¯Œ0HÌ	RCRITICALZ
+CODE_SMELL

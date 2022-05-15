@@ -1,0 +1,34 @@
+
+m
+java:S1854"5Remove this useless assignment to local variable "b".(”éÄ˜ùÿÿÿÿ8ÕÒı©Œ0HóRMAJORZ
+CODE_SMELL
+[
+java:S1481"(Remove this unused "arr" local variable.(ñõÂ8Ïîå©Œ0HÜRMINORZ
+CODE_SMELL
+j
+java:S1854"7Remove this useless assignment to local variable "arr".(ñõÂ8Ïîå©Œ0HØRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(«‹Îõ8×Åè©Œ0HêRMAJORZ
+CODE_SMELL
+m
+java:S1854"5Remove this useless assignment to local variable "a".(¢ŸÁ¤ûÿÿÿÿ8Ïîå©Œ0HÙRMAJORZ
+CODE_SMELL
+^
+java:S1481"&Remove this unused "b" local variable.(”éÄ˜ùÿÿÿÿ8ÕÒı©Œ0H÷RMINORZ
+CODE_SMELL
+^
+java:S1481"&Remove this unused "a" local variable.(¢ŸÁ¤ûÿÿÿÿ8Ïîå©Œ0HÚRMINORZ
+CODE_SMELL
+h
+java:S1854"5Remove this useless assignment to local variable "c".(£µ¼8ÕÒı©Œ0HôRMAJORZ
+CODE_SMELL
+Y
+java:S1481"&Remove this unused "c" local variable.(£µ¼8ÕÒı©Œ0HõRMINORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(õŠŒ¿ıÿÿÿÿ8ÕÒı©Œ0HùRMAJORZ
+CODE_SMELL
+h
+java:S1854"5Remove this useless assignment to local variable "c".(á«à™8·’ªŒ0H‰RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8·’ªŒ0HŠRMAJORZ
+CODE_SMELL

@@ -1,0 +1,12 @@
+
+k	java:S106
+"9Replace this use of System.out or System.err by a logger.(ºùÆÉ8¨˜««Œ0HŸRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(”á®öüÿÿÿÿ8Ã‰Ä«Œ0H¢RMAJORZ
+CODE_SMELL
+O
+java:S1643"Use a StringBuilder instead.(³œ¶˜8Ã‰Ä«Œ0H¡RMINORZ
+CODE_SMELL
+c
+java:S1481"+Remove this unused "series" local variable.(ö†Õıÿÿÿÿÿ8¨˜««Œ0HRMINORZ
+CODE_SMELL

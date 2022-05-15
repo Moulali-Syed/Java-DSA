@@ -1,0 +1,16 @@
+
+k	java:S106
+"9Replace this use of System.out or System.err by a logger.(Û™ßÒ8ÅŒÌ«Œ0H§RMAJORZ
+CODE_SMELL
+[
+java:S2201"/The return value of "toLowerCase" must be used.(±Ãˆ·8²ÑÏ«Œ0H¨RMAJORZBUG
+`
+java:S2201"/The return value of "toUpperCase" must be used.(Œ’ØÊùÿÿÿÿ8ô¯×«Œ0H©RMAJORZBUG
+[
+java:S2201"*The return value of "charAt" must be used.(«°„×øÿÿÿÿ8ô¯×«Œ0HªRMAJORZBUG
+W
+java:S2201"+The return value of "indexOf" must be used.(ñÂÏš8ô¯×«Œ0H«RMAJORZBUG
+[
+java:S2201"/The return value of "lastIndexOf" must be used.(‡ó¶²8ô¯×«Œ0H¬RMAJORZBUG
+U
+java:S2201")The return value of "strip" must be used.(”­Ò8ô¯×«Œ0H­RMAJORZBUG

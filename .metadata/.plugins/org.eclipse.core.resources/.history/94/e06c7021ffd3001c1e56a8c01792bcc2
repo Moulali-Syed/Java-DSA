@@ -1,0 +1,14 @@
+package oop;
+
+public class FinalDemo {
+
+	public static void main(String[] args) {
+		
+		
+		final int INCREASE =2;
+		//final varibales must be initialized 
+		//always initialize while declaring it
+
+	}
+
+}

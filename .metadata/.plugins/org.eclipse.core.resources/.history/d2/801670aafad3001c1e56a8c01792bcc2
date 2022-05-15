@@ -1,0 +1,16 @@
+package oop;
+
+public class StudentC {
+
+	int rno;
+	String name;
+	float marks;
+	
+	
+	StudentC(){
+		this.rno=13;
+		this.name="Apple";
+		this.marks=1.2f;
+		
+	}
+}

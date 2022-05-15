@@ -1,0 +1,16 @@
+package oop;
+
+public class Demo00 {
+
+	public static void main(String[] args) {
+		
+		
+		//store 5 rool numbers
+		int[] numners = new int[5];
+		String[] names = new String[5];
+		
+		
+
+	}
+
+}

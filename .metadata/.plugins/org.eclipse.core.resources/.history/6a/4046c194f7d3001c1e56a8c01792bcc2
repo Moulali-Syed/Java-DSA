@@ -1,0 +1,27 @@
+Class : is a named group of properties and functions
+
+If u want to create ur own datatype u can do it by creating a class
+
+For suppose we need to store data of students like rollnumber, name , marks 
+we can either store it in array seperately , if we need all data combinely 
+we can create our own datatype using classes
+Student[] students = new Student[5];
+
+class is a blue print
+
+A car can be class - same template we can have different cars from many companies
+seats , engine , price - maruti|ferrari|Audi
+
+all these cars have same property engine but have different values
+
+maruti - 4 seats, diesel engine , 1lakh
+Ferarri -  7 seats, petrol engine , 1crore
+AUdi -   4 seats, diesel engine , 50lakhs
+
+do car exist physically , no the objects made from the blueprint like maruti ,ferrari, audi exists with different
+values but same properties
+
+A class is a template , Object is an instance of class i.e creating a physical thing
+
+class - logical construct
+object - physical reality // occupies space in memory
