@@ -1,0 +1,17 @@
+package strings;
+
+import java.util.Arrays;
+
+public class StringMethodsDemo {
+
+	public static void main(String[] args) {
+		
+		
+		String name = "Apple Shimla";
+		System.out.println(Arrays.toString(name.toCharArray()));
+		
+		name.toLowerCase();
+
+	}
+
+}

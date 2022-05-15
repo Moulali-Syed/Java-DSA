@@ -1,0 +1,26 @@
+package strings;
+
+public class Comparision {
+
+	public static void main(String[] args) {
+		String a = "apple";
+		String b = "Apple";
+		System.out.println(a == b);// true
+
+		// == comparator
+		/*
+		 * a-->points to Apple b-->points to Apple checks if reference variables
+		 * pointing to same object
+		 */
+
+		// creating these values outside string pool but in heap only
+		String c = new String("hi");
+		String d = new String("hi");
+		System.out.println(c == d);// false
+
+		// when we need to check only value , use .equals method
+		System.out.println(c.equals(d));// true - because it cares only about value
+
+	}
+
+}

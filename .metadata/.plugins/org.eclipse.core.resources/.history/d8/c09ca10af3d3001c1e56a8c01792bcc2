@@ -1,0 +1,13 @@
+package strings;
+
+public class StringMethodsDemo {
+
+	public static void main(String[] args) {
+		
+		
+		String name = "Apple Shimla";
+		System.out.println(name.toCharArray());
+
+	}
+
+}
