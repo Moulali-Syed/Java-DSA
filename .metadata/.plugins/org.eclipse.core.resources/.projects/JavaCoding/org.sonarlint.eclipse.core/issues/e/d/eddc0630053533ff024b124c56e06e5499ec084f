@@ -1,0 +1,36 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(…ÑÖòøÿÿÿÿ8àÎ®Œ0HËRMAJORZ
+CODE_SMELL
+p	java:S1063"9Replace this use of System.out or System.err by a logger.(§ÚË¨üÿÿÿÿ8èØºŒ0HèRMAJORZ
+CODE_SMELL
+p	java:S106:"9Replace this use of System.out or System.err by a logger.(áŠÃ†úÿÿÿÿ8ÔãÁŒ0HûRMAJORZ
+CODE_SMELL
+k	java:S106,"9Replace this use of System.out or System.err by a logger.(²¬‡ò8’ÒŒ0H¢RMAJORZ
+CODE_SMELL
+p	java:S1060"9Replace this use of System.out or System.err by a logger.(Ã”…ªûÿÿÿÿ8£ö°Œ0HŞRMAJORZ
+CODE_SMELL
+^
+java:S1481!"+Remove this unused "arrStr" local variable.(®°€ç8Ö÷¬Œ0HÀRMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ö—ıÇûÿÿÿÿH…RMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(àş—í8Öİ–Œ0H¨RMAJORZ
+CODE_SMELL
+m
+java:S1854!":Remove this useless assignment to local variable "arrStr".(®°€ç8Ö÷¬Œ0H¿RMAJORZ
+CODE_SMELL
+Y
+java:S1481"&Remove this unused "s" local variable.(òıùú8Öİ–Œ0H©RMINORZ
+CODE_SMELL
+\
+java:S1481")Remove this unused "arr1" local variable.(°ƒÑš8ŸÊì€Œ0H‘RMINORZ
+CODE_SMELL
+j
+java:S1854"7Remove this useless assignment to local variable "arr".(ä°©·8Ú¾ë€Œ0HŠRMAJORZ
+CODE_SMELL
+k
+java:S1854"8Remove this useless assignment to local variable "arr1".(°ƒÑš8ŸÊì€Œ0HRMAJORZ
+CODE_SMELL
+[
+java:S1481"(Remove this unused "arr" local variable.(ä°©·8Ú¾ë€Œ0H‹RMINORZ
+CODE_SMELL
