@@ -1,0 +1,324 @@
+Java is platform Independent:
+
+our java code [.java] ---->compiler---->byteCode[.class] ----> JVM -----> runs
+Once compiled can be run on any opertaing system using JVM and JVM is platform dependent
+Write Once Run Anywhere
+
+OOp - anything in world is a Object
+	Any point in time Objects will have
+		1.identity/name
+		2.Properties/Variables
+		3.Functionality/Behaviour
+
+The 4 object oriented principles
+	1.Abstraction
+	2.Encapsulation
+	3.Inheritance
+	4.Polymorhpsim
+Encapsulation - protecting the properties and behaviour of one object from other object [u can think of a capsule]
+			if u follow proper encapsulation , u will have to use methods to access data/properties
+			Writing data and code in one single unit
+
+Inheritance - defining new object with help of a existing object , in java we use extends keyword
+		  inheritance - accessing the existing object functionality and may update existing functionality
+		we see reusability and IS-A relationship
+		bmw is a car, audi is a car
+		volvo is a bus , benz is a bus
+		car , bus is a vehicle
+
+Abstraction - hiding unessential data and showing only the necessary details , we can use interface in java to achieve abstraction
+			Tv - we dont know internal working , use remote and chnage channels , smartphone we dont knwo its internal working
+
+Polymorphism - many forms , Method OverLoading and Method Overriding
+			same person behaves differently with parents[respect], friends[funny], colleagues[professional]
+
+
+Building blocks of java program:
+		class , variables ,methods , blocks
+	In OOP each object represented as a class , which has variables , methods ,blocks
+	variables : are named memory locations , variables can be static and non static
+
+Methods: takes some input provide  some output
+	returnType identity (argumentList){
+	
+	}
+
+
+static methods can accessed by JVM without object so main method is static
+main method starting point of java program
+
+
+static - class Level
+Non static - Object level
+
+consider banking application
+	accountbalance
+	withdrawal()
+	checkBalance()
+	are for every object so non static
+	
+	interest
+	calculateinterest() 
+	are static because they are same for all objects , so class level
+
+
+static block:
+syntax
+	static{
+	//code here [what ever code inside static block will get executed when JVM loads the class , if u want something to be run before main
+			method gets executed , use static block]
+	}
+if we have multiple static blocks , JVM will runs them in the order they were defined
+
+static methods:
+called using Classname.staticMethodName , can also be called in static block
+
+public class StaticMethod {
+
+	public static void main(String[] args) {
+		StaticMethod.method();
+		//classname.staticMethodName - access a static method
+	}
+
+	static void method() {
+		System.out.println("inside a static method");
+	}
+
+	static {
+		System.out.println("Inside static block");
+		StaticMethod.method();
+	}
+
+}
+/*
+Inside static block
+inside a static method
+inside a static method
+
+*/
+
+
+static variables:
+public class StaticVariables {
+
+	static int num;
+	public static void main(String[] args) {
+	System.out.println(StaticVariables.num);	
+	}
+}
+//ouput : 0
+
+
+Non Static Members:
+NonStatic Variable , Non Static Block , Non Static User Method , Constructor
+to access these 4 we create a Object inside main method, static method or user defined method
+
+package intro00;
+
+public class NonStaticMembers {
+
+	//we dont mark static because we want different values for different objects
+	int num;
+	// we initialize in constructor
+	NonStaticMembers(){
+		System.out.println("inside constructor");
+	}
+	
+	//Non static block - gets executed before constructor
+	{
+		System.out.println("Non static block");
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("inside main method");
+		new NonStaticMembers();
+	}
+	
+}
+/*
+inside main method
+Non static block
+inside constructor
+*/
+
+
+static vs non static blocks
+static block will execute only once - when class file is loaded
+non static block will execute every time a new object is created
+
+public class NonStaticMembers {
+
+	//we dont mark static because we want different values for different objects
+	int num;
+	// we initialize in constructor
+	NonStaticMembers(){
+		System.out.println("inside constructor");
+	}
+	
+	//Non static block - gets executed before constructor
+	{
+		System.out.println("Non static block");
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("inside main method");
+		new NonStaticMembers();
+		new NonStaticMembers();
+		new NonStaticMembers();
+	}
+	static {
+		System.out.println("inside static block");
+	}
+}
+/*
+inside static block
+inside main method
+Non static block
+inside constructor
+Non static block
+inside constructor
+Non static block
+inside constructor
+*/
+
+static and non static blocks are optional ,can be used based on application needs
+
+Default Constructor: If we r not defining a constructor , java compiler will add a constructor called as default constructor
+
+Create Object Reference:
+public class ObjectReference {
+	int x;
+
+	ObjectReference() {
+
+	}
+
+	public static void main(String[] args) {
+		ObjectReference obj = new ObjectReference();
+		System.out.println(obj.x);
+	}
+}
+// output : 0
+
+create object reference in a static block
+public class Demo {
+
+	static {
+		Demo obj = new Demo();
+		System.out.println(obj);
+	}
+
+	public static void main(String[] args) {
+
+	}
+}
+
+//output:  intro00.Demo@515f550a  - address of the object
+
+
+create a static reference directly
+public class Demo {
+
+	static Demo obj;
+	static {
+		System.out.println(Demo.obj);
+		Demo.obj = new Demo();
+	}
+
+	public static void main(String[] args) {
+		System.out.println(Demo.obj);
+	}
+}
+
+/*
+ * output: null 
+ * intro00.Demo@379619aa
+ */
+
+this keyword:
+public class ThiskeywordDemo {
+
+	int x;
+
+	ThiskeywordDemo() {
+		System.out.println(this);
+		System.out.println(this.x);
+	}
+
+	public static void main(String[] args) {
+		new ThiskeywordDemo();
+		new ThiskeywordDemo();
+	}
+}
+/*
+intro00.ThiskeywordDemo@515f550a
+0
+intro00.ThiskeywordDemo@cac736f
+0
+*/
+
+
+create a reference in static method:
+public class Demo {
+
+	static Demo obj = new Demo();
+	static {
+		System.out.println(Demo.obj);
+		Demo.obj = Demo.init();
+	}
+
+	public static void main(String[] args) {
+		System.out.println(Demo.obj);
+	}
+	
+	static Demo init() {
+		return new Demo();
+	}
+}
+/*
+ intro00.Demo@515f550a
+intro00.Demo@cac736f
+
+ */
+
+Invoking a non static method:
+public class NonStaticMembers {
+
+	//we dont mark static because we want different values for different objects
+	int num;
+	// we initialize in constructor
+	NonStaticMembers(){
+		System.out.println("inside constructor");
+	}
+	
+	//Non static block - gets executed before constructor
+	{
+		System.out.println("Non static block");
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("inside main method");
+		NonStaticMembers obj  = new NonStaticMembers();
+		obj.doSomething();
+	}
+	static {
+		System.out.println("inside static block");
+	}
+	
+	void doSomething() {
+		System.out.println("inside do something");
+	}
+}
+/*
+inside static block
+inside main method
+Non static block
+inside constructor
+inside do something
+*/
+
+
+static vs non static
+staic - belong to class , accessed using classname , static block is executed at time of class loading , memory is allocated and variables are initialized during class loading
+non static - belong to object , accessed using objectname , time of object creation , at time of object creation
+

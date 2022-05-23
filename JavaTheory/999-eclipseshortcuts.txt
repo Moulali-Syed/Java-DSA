@@ -1,0 +1,9 @@
+ctrl+d - delets a line
+
+ctrl+shift+f - formats a file
+
+Alt+uparrow/down arrow - moves line up and down
+
+to create main method
+write 
+main + ctrl+space
